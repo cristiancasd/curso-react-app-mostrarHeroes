@@ -12,7 +12,9 @@ export const HeroCard = (
 ) => {
 
     const heroImageUrl =`./assets/heroes/${id}.jpg`
+
     console.log('el url es ', heroImageUrl)
+
     return (
     <div className="col animate__animated animate__bounce animate__fadeIn">
         <div className="card">
